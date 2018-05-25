@@ -18,6 +18,9 @@
 </ul>
 </nav>
 
+<h1>Banque de sang</h1>
+
+<div class="container">
 <form action="dconfig.jsp" method="post">
         name:<input type="text" name="name"/><br/>
         firsname:<input type="text" name="firsname"/><br/>
@@ -27,8 +30,9 @@
         typedusang:<input type="text" name="typedusang" /><br/>
         hopital:<input type="text" name="hopital" /><br/>
         
-       <button>Valider</button>
+        <input type="submit" value="Submit">
     </form>
+    </div>
     
   
 <footer>
